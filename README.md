@@ -1,63 +1,109 @@
-Java & Spring Boot Development
-Welcome to the Java-SpringBoot repository. This project serves as a comprehensive collection of resources, examples, and production-ready code samples for building robust microservices and enterprise backend applications using Java and the Spring Boot framework.
+#  Java & Spring Boot Development
 
-🛠️ Tech Stack & Prerequisites
-Java Development Kit (JDK): Version 17+ (or 21 LTS)
+A comprehensive collection of **Java and Spring Boot** resources, examples,
+and production-ready code for building robust **REST APIs, microservices,
+and enterprise backend applications**.
 
-Framework: Spring Boot 3.x
+---
 
-Build Tools: Maven / Gradle
+## 🛠️ Tech Stack
 
-Database Access: Spring Data JPA, Hibernate, PostgreSQL / MySQL / H2
+| Technology | Details |
+|------------|---------|
+| **Language** | Java 17+ / Java 21 LTS |
+| **Framework** | Spring Boot 3.x |
+| **Build Tools** | Maven / Gradle |
+| **Database** | PostgreSQL / MySQL / H2 |
+| **ORM** | Spring Data JPA / Hibernate |
+| **Security** | Spring Security / JWT / OAuth2 |
+| **API Documentation** | Swagger / OpenAPI |
+| **Testing** | JUnit 5 / Mockito |
+| **Migration** | Flyway / Liquibase |
 
-Security: Spring Security, JWT OAuth2
+---
 
-Documentation & Testing: Swagger/OpenAPI, JUnit 5, Mockito
+## 📚 Topics Covered
 
-🚀 Key Features & Architectural Patterns
-RESTful Web Services: Best practices for API routing, request validation, and standard JSON response mapping.
+### 🌱 Spring Boot Fundamentals
+- Introduction to Spring Boot
+- Spring Core
+- IoC (Inversion of Control)
+- Dependency Injection
+- Spring Beans
+- ApplicationContext
+- Project Structure
+- Configuration and Profiles
 
-Database Integration: Entity mapping, repository patterns, custom JPQL queries, and database migrations with Flyway or Liquibase.
+### 🌐 RESTful Web Services
+- REST API fundamentals
+- HTTP methods
+- Request and Response handling
+- Path Variables
+- Request Parameters
+- Request Bodies
+- ResponseEntity
+- JSON mapping
+- API validation
 
-Security Implementation: Role-based access control (RBAC), JWT authentication, and stateless session management.
+### 🗄️ Database & Persistence
+- Spring Data JPA
+- Hibernate
+- Entity Mapping
+- Relationships
+- Repository Pattern
+- JPQL Queries
+- Custom Queries
+- Pagination and Sorting
+- MySQL / PostgreSQL / H2
+- Database Migrations
+- Flyway / Liquibase
 
-Global Exception Handling: Unified @ControllerAdvice structure for clear error messaging and appropriate HTTP status codes.
+### 🔐 Security
+- Spring Security
+- Authentication & Authorization
+- JWT Authentication
+- OAuth2
+- Role-Based Access Control (RBAC)
+- Stateless Session Management
+- Password Encryption
 
-Configuration Management: Profile-based configurations (application-dev.yml, application-prod.yml) for multi-environment deployments.
+### ⚠️ Exception Handling & Validation
+- Custom Exceptions
+- `@ExceptionHandler`
+- `@ControllerAdvice`
+- Global Exception Handling
+- Bean Validation
+- Request Validation
+- Standardized API Error Responses
 
-📦 Getting Started
-1. Clone the Repository
-Bash
-git clone https://github.com/LavanyaBanga/Java-SpringBoot.git
-cd Java-SpringBoot
-2. Build the Project
-Using Maven:
+### 🧪 Testing
+- Unit Testing
+- Integration Testing
+- JUnit 5
+- Mockito
+- Controller Testing
+- Service Testing
+- Repository Testing
 
-Bash
-./mvnw clean install
-Using Gradle:
+### 📖 API Documentation
+- Swagger
+- OpenAPI
+- API Documentation
+- Request/Response Examples
 
-Bash
-./gradlew build
-3. Run the Application
-Bash
-./mvnw spring-boot:run
-By default, the application runs on http://localhost:8080.
+---
 
-🧪 Running Tests
-To run unit and integration tests across all modules:
+## 🏗️ Architectural Patterns
 
-Bash
-./mvnw test
-📜 Contributing
-Contributions are welcome! If you have suggestions or fixes:
+This repository demonstrates commonly used backend architecture patterns:
 
-Fork the repository.
-
-Create your feature branch (git checkout -b feature/NewFeature).
-
-Commit your changes (git commit -m 'Add NewFeature').
-
-Push to the branch (git push origin feature/NewFeature).
-
-Open a Pull Request
+```text
+Client
+  ↓
+Controller
+  ↓
+Service
+  ↓
+Repository
+  ↓
+Database
