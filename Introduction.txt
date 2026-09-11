@@ -1,0 +1,69 @@
+#  Introduction to Spring Boot
+
+## What is Spring?
+
+Spring is a Java-based framework used for building enterprise-level
+applications.
+
+It provides features such as:
+
+- Dependency Injection
+- Inversion of Control
+- Database integration
+- Web development
+- Security
+- Transaction management
+
+---
+
+# What is Spring Boot?
+
+Spring Boot is a framework built on top of the Spring Framework.
+
+It simplifies Spring application development by providing:
+
+- Auto Configuration
+- Starter Dependencies
+- Embedded Servers
+- Production-ready features
+- Minimal configuration
+
+---
+
+# Spring vs Spring Boot
+
+| Spring | Spring Boot |
+|--------|-------------|
+| Requires more configuration | Requires less configuration |
+| Usually needs external server | Embedded server |
+| Manual configuration | Auto configuration |
+| More setup | Faster development |
+
+---
+
+# Why Spring Boot?
+
+Spring Boot helps developers build backend applications quickly.
+
+Main advantages:
+
+1. Auto Configuration
+2. Embedded Tomcat
+3. Starter Dependencies
+4. Easy REST API development
+5. Production-ready applications
+
+---
+
+# Spring Boot Starter
+
+Instead of manually adding many dependencies, Spring Boot provides
+starter dependencies.
+
+Example:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
