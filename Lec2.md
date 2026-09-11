@@ -1,5 +1,4 @@
-# SPRING BOOT – MODULE 1  
-# PHASE 2  
+
 ## JDBC – Transactions, Batch Processing and Advanced Result Handling  
 
 ---
